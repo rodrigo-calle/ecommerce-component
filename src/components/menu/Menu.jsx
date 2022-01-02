@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import foods from '../../data/foodsData';
 
 import './Menu.css'
