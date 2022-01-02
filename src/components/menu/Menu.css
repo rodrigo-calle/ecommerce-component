@@ -1,0 +1,88 @@
+.card-body{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    -webkit-box-shadow: 0 0 10px rgb(170, 170, 170);
+        box-shadow: 0 0 10px rgb(192, 192, 192);
+    margin: 50px;
+    border-radius: 17px;
+    padding-bottom: 35px;
+}
+.card-body .menu-title{
+    margin-left: 35px;
+}
+
+.card-body .card{
+    position: relative;
+    height: 150px;
+    width: 350px;
+    margin-left: 50px;
+    border-radius: 30px 0px 0px 30px ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-body .card .plate-image{
+    position: absolute;
+    height: 150px;
+    top: -20px;
+    left: -20px;
+}
+.card-body .card .plate-content{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    align-self: center;
+}
+.card-body .card .plate-content .plate-name{
+    width: 80%;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.card-body .card .plate-content .plate-price{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+}
+.card-body .card .plate-content .plate-btn{
+    color: #fff;
+    background-color: #000;
+    width: 80px;
+    border: none;
+    height: 25px;
+    border-radius: 17px;
+    position: absolute;
+    bottom: -10px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container-cards .cart-body{
+      margin: 20px auto;
+      width: 350px;
+    }
+    .card-body .card{
+        position: relative;
+        height: 150px;
+        width: 300px;
+        margin-left: 50px;
+        border-radius: 30px 0px 0px 30px ;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .card-body .card{
+        position: relative;
+        height: 150px;
+        width: 350px;
+        margin-left: 50px;
+        border-radius: 30px 0px 0px 30px ;
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
